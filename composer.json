@@ -1,0 +1,30 @@
+{
+  "name": "magevision/shopware-greek-regions",
+  "description": "MageVision Greek Regions",
+  "version": "1.0.0",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "MageVision",
+      "role": "Manufacturer"
+    }
+  ],
+  "type": "shopware-platform-plugin",
+  "autoload": {
+    "psr-4": {
+      "MageVisionGreekRegions\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "MageVisionGreekRegions\\MageVisionGreekRegions",
+    "plugin-icon": "src/Resources/config/plugin.png",
+    "copyright": "(c) by MageVision",
+    "label": {
+      "en-GB": "MageVision Greek Regions",
+      "de-DE": "MageVision Griechische Regionen"
+    },
+    "manufacturerLink": {
+      "en-GB": "https://www.magevision.com/"
+    }
+  }
+}
