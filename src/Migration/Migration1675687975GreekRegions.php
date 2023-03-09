@@ -94,7 +94,7 @@ class Migration1675687975GreekRegions extends MigrationStep
             'GR-H' => 'Στερεά Ελλάδα',
             'GR-E' => 'Θεσσαλία',
             'GR-K' => 'Βόρειο Αιγαίο',
-            'GR-69' => 'Άγιο Όρος',
+            'GR-69' => 'Άγιον Όρος',
         ];
         foreach ($data as $isoCode => $name) {
             $storageDate = (new \DateTime())->format(Defaults::STORAGE_DATE_TIME_FORMAT);
