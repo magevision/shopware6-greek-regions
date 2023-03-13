@@ -1,6 +1,6 @@
 {
   "name": "magevision/shopware-greek-regions",
-  "description": "MageVision Greek Regions",
+  "description": "Greek Regions extension for Shopware 6",
   "version": "1.0.0",
   "license": "MIT",
   "authors": [
