@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace MageVisionGreekRegions;
+namespace MageVision\GreekRegions;
 
 use Shopware\Core\Framework\Plugin;
 

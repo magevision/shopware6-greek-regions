@@ -12,16 +12,20 @@
   "type": "shopware-platform-plugin",
   "autoload": {
     "psr-4": {
-      "MageVisionGreekRegions\\": "src/"
+      "MageVision\\GreekRegions\\": "src/"
     }
   },
   "extra": {
-    "shopware-plugin-class": "MageVisionGreekRegions\\MageVisionGreekRegions",
+    "shopware-plugin-class": "MageVision\\GreekRegions\\MageVisionGreekRegions",
     "plugin-icon": "src/Resources/config/plugin.png",
     "copyright": "(c) by MageVision",
     "label": {
       "en-GB": "MageVision Greek Regions",
       "de-DE": "MageVision Griechische Regionen"
+    },
+    "description": {
+      "en-GB": "Greek Regions",
+      "de-DE": "Griechische Regionen"
     },
     "manufacturerLink": {
       "en-GB": "https://www.magevision.com/"
