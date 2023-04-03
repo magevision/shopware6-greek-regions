@@ -3,15 +3,15 @@
 namespace MageVision\GreekRegions\Migration;
 
 use Doctrine\DBAL\Connection;
+use Doctrine\DBAL\Driver\Exception as DriverException;
 use Doctrine\DBAL\Exception;
 use Shopware\Core\Defaults;
 use Shopware\Core\Framework\Migration\MigrationStep;
 use Shopware\Core\Framework\Uuid\Uuid;
-use Doctrine\DBAL\Driver\Exception as DriverException;
 
 class Migration1675687975GreekRegions extends MigrationStep
 {
-    private const COUNTRY_CODE = 'GR';
+    public const COUNTRY_CODE = 'GR';
     private const COUNTRY_LOCALE = 'Greek';
     private const COUNTRY_LOCALE_CODE = 'el-GR';
 
