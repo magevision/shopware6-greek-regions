@@ -12,7 +12,7 @@ use Shopware\Core\Framework\Uuid\Uuid;
 class Migration1675687975GreekRegions extends MigrationStep
 {
     public const COUNTRY_CODE = 'GR';
-    private const COUNTRY_LOCALE = 'Greek';
+    private const COUNTRY_LOCALE = 'Ελληνικά';
     private const COUNTRY_LOCALE_CODE = 'el-GR';
 
     /**
@@ -128,7 +128,6 @@ class Migration1675687975GreekRegions extends MigrationStep
      * @param Connection $connection
      * @return void
      * @throws Exception
-     * @throws DriverException
      */
     private function createGreekLanguage(Connection $connection): void
     {
